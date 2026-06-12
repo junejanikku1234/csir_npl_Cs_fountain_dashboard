@@ -1,10 +1,57 @@
+# =========================
 # Python-generated files
+# =========================
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+*.egg
 
+# =========================
 # Virtual environments
-.venv
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Output Directories & Data
+# =========================
+all_outputs/
+all_outputs.zip
+*.csv
+*.xlsx
+*.dat
+
+# =========================
+# Logs, Secrets & Databases
+# =========================
+*.log
+.env
+*.sqlite3
+
+# =========================
+# Specific Project Files
+# =========================
+win_err_msg.jpg
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================
+# IDEs and Editors
+# =========================
+.vscode/
+.idea/
+*.swp
